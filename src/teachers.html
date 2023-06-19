@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="bootstrap/mdb.dark.min.css" />
+    <!-- Custom scripts -->
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+</head>
+
+<body style="background: linear-gradient(
+    45deg,
+    rgba(29, 236, 197, 0.7),
+    rgba(91, 14, 214, 0.7) 100%
+  );">
+    <!--Main Navigation-->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 2000;  background: linear-gradient(
+    45deg,
+    rgba(29, 236, 197, 0.7),
+    rgba(91, 14, 214, 0.7) 100%
+  );">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    Book Centre
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
+                        id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <b style="color: rgb(221, 221, 221);">Account</b>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main class="my-5">
+        <div class="container">
+            <!--Section: Content-->
+            <section class="text-center text-md-start">
+                <h3 class="mb-5 text-center"><strong>Book a Lesson</strong></h3>
+
+                <!-- Pills navs -->
+                <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="pill" href="#ex3-pills-1" role="tab"
+                            aria-controls="ex3-pills-1" aria-selected="true">O LEVEL</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-2" data-mdb-toggle="pill" href="#ex3-pills-2" role="tab"
+                            aria-controls="ex3-pills-2" aria-selected="false">AS LEVEL</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ex3-tab-3" data-mdb-toggle="pill" href="#ex3-pills-3" role="tab"
+                            aria-controls="ex3-pills-3" aria-selected="false">A2 LEVEL</a>
+                    </li>
+                </ul>
+                <!-- Pills navs -->
+                <hr class="hr-dark hr-lg" style="margin-bottom: 50px;">
+                <!-- Pills content -->
+                <div class="tab-content" id="ex2-content">
+                    <div class="tab-pane fade show active" id="ex3-pills-1" role="tabpanel" aria-labelledby="ex3-tab-1">
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/math-guy.jpg" class="img-fluid"
+                                        style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Joe </h5>
+                                <p>
+                                    Mr nerd who studied calculs or calculous (whatever its called idk) for 10 years and
+                                    got 69
+                                    scolar ships. Rather than choosing to live a millionare life, he decided it was
+                                    better to
+                                    come teach kids. HAHAHAHAHA! Pathetic, right? Anyway, plz buy course i give free
+                                    cookies.
+
+                                </p>
+                                <span class="d-block">$14.99</span>
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/cool-guy.jpg" class="img-fluid"
+                                        style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr TOPG</h5>
+                                <p>
+                                    Absolute magestic looking person, he'll make u escape the matrix and u get a
+                                    guaranteed +100
+                                    increase in rizz. Also go pray ur salah ya habibi.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/spongebob.jpg" class="img-fluid"
+                                        style="width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Squarepants</h5>
+                                <p>
+                                    Mr spongy man here just graduted from kinder... garten or is it garden. Anyway, the
+                                    main
+                                    point here is that he's qualified for this role. My guy takes care of a snail, works
+                                    in some
+                                    goofy ahhh restaurant called the Krusty Krab and that's not even the best part, THE
+                                    DUDE HAS
+                                    A PINEAPPLE HOUSE!!!!! I think i made my point clear here, hes basically a CHAD.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/cutie.jpg" class="img-fluid" style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Cutieee</h5>
+                                <p>
+                                    DONT GET THIS WRONG! The left one is the cute one. You know that one person who
+                                    always tries
+                                    to look cute with a baby in a picture so he takes 1000+ pics until he gets a good
+                                    one?
+                                    yeahhh that's the meat-head one on the right. Anyway, that meat-head booked with Mr
+                                    cutie
+                                    so he can look like him and Mr cutie here is guaranteed to make u look cute by the
+                                    end of
+                                    the course and u get +1000000 increase in rizz.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-2" role="tabpanel" aria-labelledby="ex3-tab-2">
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/math-guy.jpg" class="img-fluid"
+                                        style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Joe </h5>
+                                <p>
+                                    Mr nerd who studied calculs or calculous (whatever its called idk) for 10 years and
+                                    got 69
+                                    scolar ships. Rather than choosing to live a millionare life, he decided it was
+                                    better to
+                                    come teach kids. HAHAHAHAHA! Pathetic, right? Anyway, plz buy course i give free
+                                    cookies.
+
+                                </p>
+                                <span class="d-block">$14.99</span>
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/cool-guy.jpg" class="img-fluid"
+                                        style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr TOPG</h5>
+                                <p>
+                                    Absolute magestic looking person, he'll make u escape the matrix and u get a
+                                    guaranteed +100
+                                    increase in rizz. Also go pray ur salah ya habibi.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/spongebob.jpg" class="img-fluid"
+                                        style="width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Squarepants</h5>
+                                <p>
+                                    Mr spongy man here just graduted from kinder... garten or is it garden. Anyway, the
+                                    main
+                                    point here is that he's qualified for this role. My guy takes care of a snail, works
+                                    in some
+                                    goofy ahhh restaurant called the Krusty Krab and that's not even the best part, THE
+                                    DUDE HAS
+                                    A PINEAPPLE HOUSE!!!!! I think i made my point clear here, hes basically a CHAD.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/cutie.jpg" class="img-fluid" style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Cutieee</h5>
+                                <p>
+                                    DONT GET THIS WRONG! The left one is the cute one. You know that one person who
+                                    always tries
+                                    to look cute with a baby in a picture so he takes 1000+ pics until he gets a good
+                                    one?
+                                    yeahhh that's the meat-head one on the right. Anyway, that meat-head booked with Mr
+                                    cutie
+                                    so he can look like him and Mr cutie here is guaranteed to make u look cute by the
+                                    end of
+                                    the course and u get +1000000 increase in rizz.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="ex3-pills-3" role="tabpanel" aria-labelledby="ex3-tab-3">
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/math-guy.jpg" class="img-fluid"
+                                        style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Joe </h5>
+                                <p>
+                                    Mr nerd who studied calculs or calculous (whatever its called idk) for 10 years and
+                                    got 69
+                                    scolar ships. Rather than choosing to live a millionare life, he decided it was
+                                    better to
+                                    come teach kids. HAHAHAHAHA! Pathetic, right? Anyway, plz buy course i give free
+                                    cookies.
+
+                                </p>
+                                <span class="d-block">$14.99</span>
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/cool-guy.jpg" class="img-fluid"
+                                        style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr TOPG</h5>
+                                <p>
+                                    Absolute magestic looking person, he'll make u escape the matrix and u get a
+                                    guaranteed +100
+                                    increase in rizz. Also go pray ur salah ya habibi.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/spongebob.jpg" class="img-fluid"
+                                        style="width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Squarepants</h5>
+                                <p>
+                                    Mr spongy man here just graduted from kinder... garten or is it garden. Anyway, the
+                                    main
+                                    point here is that he's qualified for this role. My guy takes care of a snail, works
+                                    in some
+                                    goofy ahhh restaurant called the Krusty Krab and that's not even the best part, THE
+                                    DUDE HAS
+                                    A PINEAPPLE HOUSE!!!!! I think i made my point clear here, hes basically a CHAD.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+
+                        <!-- Post -->
+                        <div class="row position-relative">
+                            <div class="col-md-4 mb-4">
+                                <div class="bg-image hover-overlay shadow-1-strong rounded ripple"
+                                    data-mdb-ripple-color="light">
+                                    <img src="img/cutie.jpg" class="img-fluid" style=" width: 600px; height: 300px;" />
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 mb-4">
+                                <h5>Mr Cutieee</h5>
+                                <p>
+                                    DONT GET THIS WRONG! The left one is the cute one. You know that one person who
+                                    always tries
+                                    to look cute with a baby in a picture so he takes 1000+ pics until he gets a good
+                                    one?
+                                    yeahhh that's the meat-head one on the right. Anyway, that meat-head booked with Mr
+                                    cutie
+                                    so he can look like him and Mr cutie here is guaranteed to make u look cute by the
+                                    end of
+                                    the course and u get +1000000 increase in rizz.
+                                </p>
+
+                                <span class="d-block">$14.99</span>
+
+                                <button type="button" class="btn btn-primary stretched-link">Book Course</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pills content -->
+
+
+            </section>
+            <!--Section: Content-->
+
+            <!-- Pagination -->
+            <nav class="my-4" aria-label="...">
+                <ul class="pagination pagination-circle justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer>
+        <hr class="m-0" />
+
+        <div class="text-center py-4 align-items-center">
+            <p>Follow Boudy on social media</p>
+            <a class="btn text-white  btn-floating m-1" style="background-color: #25d366;" href="#!" role="button">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a class="btn text-white  btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a class="btn text-white  btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+        </div>
+
+    </footer>
+    <!--Footer-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="bootstrap/mdb.min.js"></script>
+    <!-- Custom scripts -->
+
+</body>
+
+</html>

@@ -2,45 +2,43 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Booking Centre</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap">
   <!-- MDB -->
-  <link rel="stylesheet" href="bootstrap/mdb.min.css" />
+  <link rel="stylesheet" href="/home.9255800e.css">
 </head>
 
-<body>
+<body style="background: linear-gradient(45deg, #1decc5b3, #5b0ed6b3 100%)">
 
   <!--Main Navigation-->
   <header>
-    <style>
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #intro {
-          margin-top: -58.59px;
-          height: 50vh !important;
-        }
-      }
+    <style>@media (width >= 992px) {
+  #intro {
+    margin-top: -58.59px;
+    height: 50vh !important;
+  }
+}
 
-      .navbar .nav-link {
-        color: #fff !important;
-      }
-    </style>
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+</style>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000">
       <div class="container-fluid">
         <!-- Navbar brand -->
         <a class="navbar-brand nav-link" target="" href="#!">
           <strong>Booking Centre</strong>
         </a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarExample01">
@@ -79,16 +77,10 @@
 
     <!-- Background image -->
     <div id="intro" class="bg-image vh-100 shadow-1-strong">
-      <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
-        <source class="h-100" src="https://mdbootstrap.com/img/video/animation-intro-min.mp4" type="video/mp4" />
+      <video style="min-width: 100%; min-height: 100%" playsinline="" autoplay="" muted="" loop="">
+        <source class="h-100" src="https://mdbootstrap.com/img/video/animation-intro-min.mp4" type="video/mp4">
       </video>
-      <div class="mask" style="
-              background: linear-gradient(
-                45deg,
-                rgba(29, 236, 197, 0.7),
-                rgba(91, 14, 214, 0.7) 100%
-              );
-            ">
+      <div class="mask" style="background: linear-gradient(45deg, #1decc5b3, #5b0ed6b3 100%)">
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
           <div class="text-white">
             <h1 class="mb-3">Book with Boudy</h1>
@@ -112,13 +104,14 @@
 
       <!--Section: Content-->
       <section class="text-center">
+
         <h4 class="mb-5"><strong>Available Subjects</strong></h4>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
+          <div class="col ">
+            <div class="card h-100 bg-info">
               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
-                <img src="img/english.jpg" class="card-img-top" alt="English" height="240px" />
+                <img src="/english.f2a2b88e.jpg" class="card-img-top" alt="English" height="240px">
               </div>
 
               <div class="card-body">
@@ -127,21 +120,16 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis quaerat.
                   Sequi quibusdam quam nam, harum explicabo veritatis dicta rem!
                 </p>
-                <div class="text-center" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="orange">O
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="purple">AS
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="aqua">A2
-                    level</button>
+                <div class="text-center align-items-center">
+                  <button type="button" onclick="window.location.href='teachers.html'" class="btn btn-secondary" data-mdb-ripple-color="aqua">view levels</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-info">
               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
-                <img src="img/math.jpg" class="card-img-top" alt="Math" height="240px" />
+                <img src="/math.7350657a.jpg" class="card-img-top" alt="Math" height="240px">
               </div>
               <div class="card-body">
                 <h5 class="card-title">Math</h5>
@@ -149,21 +137,16 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis quaerat.
                   Sequi quibusdam quam nam, harum explicabo veritatis dicta rem!
                 </p>
-                <div class="text-center align-items-center" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="orange">O
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="purple">AS
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="aqua">A2
-                    level</button>
+                <div class="text-center align-items-center">
+                  <button type="button" onclick="window.location.href='teachers.html'" class="btn btn-secondary" data-mdb-ripple-color="aqua">view levels</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-info">
               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
-                <img src="img/biology.jpg" class="card-img-top" alt="biology image" height="240px" />
+                <img src="/biology.34e543dc.jpg" class="card-img-top" alt="biology image" height="240px">
               </div>
 
               <div class="card-body">
@@ -172,21 +155,16 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis quaerat.
                   Sequi quibusdam quam nam, harum explicabo veritatis dicta rem!
                 </p>
-                <div class="text-center align-items-center" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="orange">O
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="purple">AS
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="aqua">A2
-                    level</button>
+                <div class="text-center align-items-center">
+                  <button type="button" onclick="window.location.href='teachers.html'" class="btn btn-secondary" data-mdb-ripple-color="aqua">view levels</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-info">
               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
-                <img src="img/chemistry.jpg" class="card-img-top" alt="Chemistry" height="240px" />
+                <img src="/chemistry.f569a732.jpg" class="card-img-top" alt="Chemistry" height="240px">
               </div>
               <div class="card-body">
                 <h5 class="card-title">Chemistry</h5>
@@ -194,21 +172,16 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis quaerat.
                   Sequi quibusdam quam nam, harum explicabo veritatis dicta rem!
                 </p>
-                <div class="text-center align-items-center" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="orange">O
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="purple">AS
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="aqua">A2
-                    level</button>
+                <div class="text-center align-items-center">
+                  <button type="button" onclick="window.location.href='teachers.html'" class="btn btn-secondary" data-mdb-ripple-color="aqua">view levels</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-info">
               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
-                <img src="img/physics.jpg" class="card-img-top" alt="Physics" height="240px" />
+                <img src="/physics.f32b8a94.jpg" class="card-img-top" alt="Physics" height="240px">
               </div>
               <div class="card-body">
                 <h5 class="card-title">Physics</h5>
@@ -216,21 +189,16 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis quaerat.
                   Sequi quibusdam quam nam, harum explicabo veritatis dicta rem!
                 </p>
-                <div class="text-center align-items-center" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="orange">O
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="purple">AS
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="aqua">A2
-                    level</button>
+                <div class="text-center align-items-center">
+                  <button type="button" onclick="window.location.href='teachers.html'" class="btn btn-secondary" data-mdb-ripple-color="aqua">view levels</button>
                 </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-info">
               <div class="bg-image hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-color="light">
-                <img src="img/computer-science.jpg" class="card-img-top" alt="Computer Science" height="240px" />
+                <img src="/computer-science.d1bb676c.jpg" class="card-img-top" alt="Computer Science" height="240px">
               </div>
               <div class="card-body">
                 <h5 class="card-title">Computer Science</h5>
@@ -238,13 +206,8 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis quaerat.
                   Sequi quibusdam quam nam, harum explicabo veritatis dicta rem!
                 </p>
-                <div class="text-center align-items-center" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="orange">O
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="purple">AS
-                    level</button>
-                  <button type="button" class="btn btn-secondary m-1" data-mdb-ripple-color="aqua">A2
-                    level</button>
+                <div class="text-center align-items-center">
+                  <button type="button" onclick="window.location.href='teachers.html'" class="btn btn-secondary" data-mdb-ripple-color="aqua">view levels</button>
                 </div>
               </div>
             </div>
@@ -274,19 +237,19 @@
   <!--Main layout-->
 
   <!--Footer-->
-  <footer class="bg-light">
-    <hr class="m-0" />
+  <footer>
+    <hr class="m-0">
 
     <div class="text-center py-4 align-items-center">
       <p>Follow Boudy on social media</p>
-      <a class="btn text-white  btn-floating m-1" style="background-color: #25d366;" href="#!" role="button">
+      <a class="btn text-white  btn-floating m-1" style="background-color: #25d366" href="#!" role="button">
         <i class="fab fa-whatsapp"></i>
       </a>
-      <a class="btn text-white  btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button">
+      <a class="btn text-white  btn-floating m-1" style="background-color: #3b5998" href="#!" role="button">
         <i class="fab fa-facebook-f"></i>
       </a>
 
-      <a class="btn text-white  btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button">
+      <a class="btn text-white  btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button">
         <i class="fab fa-instagram"></i>
       </a>
 
@@ -296,10 +259,10 @@
   <!--Footer-->
 
   <!-- MDB -->
-  <script type="text/javascript" src="bootstrap/mdb.min.js"></script>
+  <script src="/home.ccacfb43.js"></script>
   <!-- Custom scripts -->
 
-  <script type="module" src="js/main.js"></script>
-</body>
+
+<script src="/home.e6f346f6.js"></script></body>
 
 </html>
