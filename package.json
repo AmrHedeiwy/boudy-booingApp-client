@@ -2,10 +2,10 @@
   "name": "client",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/home.html --public-url ./home.html"
+    "build": "parcel build src/*home.html"
   },
   "homepage": "home.html",
   "keywords": [],
